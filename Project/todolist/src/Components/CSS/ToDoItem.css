@@ -1,0 +1,43 @@
+.list-item {
+    display: flex;
+    padding: 1rem;
+    cursor: pointer;
+    transition: all 0.15s;
+    align-items: center;
+    background-color: #ffffff;
+    border-bottom: solid 1px #f1f1f1;
+}
+
+.list-item:hover {
+    background-color: #E6F8E0;
+}
+
+.list-item:hover .remove {
+    background-color: #E6F8E0;
+    opacity: 1;
+}
+
+.remove {  
+    margin-right: 1rem;
+    color: #e64980;
+    font-weight: 600;
+    opacity: 0;
+}
+
+.todo-content {
+    flex: 1;
+    word-break: break-all;
+}
+
+.checked {
+    text-decoration: line-through;
+    color: #abd5bd;
+}
+
+.check-mark {
+    font-size: 1.5rem;
+    line-height: 1rem;
+    margin-left: 1rem;
+    color: #3bc9db;
+    font-weight: 800;
+}

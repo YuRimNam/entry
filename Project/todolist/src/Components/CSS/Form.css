@@ -1,0 +1,24 @@
+.form {
+    display: flex;
+  }
+  
+  .form input {
+    margin-right: 20px;
+    flex: 1;
+    font-size: 12pt;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #82FA58;
+  }
+
+.create-button {
+    height: 25px;
+    width: 50px;
+    padding-top: 5px;
+    color: #ffffff;
+    font-family: "나눔고딕";
+    text-align: center;
+    display: inline-block;
+    background-color: #BEF781;
+    border-radius: 20%;
+}

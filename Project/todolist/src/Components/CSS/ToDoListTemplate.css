@@ -1,0 +1,22 @@
+.todo-list-main {
+    margin: auto;
+    width: 600px;
+    box-shadow: 0 3px 6px #6E6E6E;
+    margin-top: 5%;
+}
+
+.header {
+    height: 4rem;
+    padding-top: 2rem;
+    text-align: center;
+    font-family: "맑은고딕";
+    color: #ffffff;
+    font-size: 15pt;
+    font-weight: 600;
+    background-color: #74DF00;
+}
+
+.input {
+    padding: 1rem;
+    border-bottom: solid 1px #5FB404;
+} 
